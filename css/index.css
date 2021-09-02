@@ -1,0 +1,38 @@
+.container{
+    font-family: "rubik";
+    text-align:center;
+    margin-top:50px;
+}
+
+.logo{
+    width:750px; 
+    height:320px;
+}
+
+.botao{
+    border: 1px #343a40 solid;
+    border-radius:20px;
+    background-color: #FFFFFF;
+    padding:15px 35px;
+    color: #343A40;
+    font-weight: bold;
+    font-size:25px;
+    text-decoration: none;
+}
+
+.paragrafo{
+    margin-top: 100px;
+}
+
+.imagem-fundo{
+    background-image:url('../imagens/madeira.jpg');
+    background-repeat:unset;
+}
+
+.botao:hover {
+    background-color: #4CAF50;
+    border: 1px #4CAF50 solid;
+    color: white;
+    transition-duration: 1s;
+    padding:20px 40px;
+  }

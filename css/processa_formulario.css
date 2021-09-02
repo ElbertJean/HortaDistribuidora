@@ -1,0 +1,62 @@
+html {
+    font-family: "Rubik";
+}
+
+.imagem-fundo{
+    background-image: url('../imagens/madeira.jpg');
+}
+
+.logo{
+    width:350px; 
+    height:150px;
+}
+
+.container{
+    margin-top: 50px;
+    padding: 20px 0;
+    border:1px #343A40 solid;
+    border-radius: 40px;
+    background-image: url('../imagens/madeira2.jpg');
+    width:50%;
+    margin:auto;
+    text-align: center;
+}
+
+.titulo-principal{
+    font-weight: bold;
+    font-size: 25px;
+    color:#343a40;
+}
+
+.paragrafo {
+    color:#343a40;
+    margin-top:20px;
+}
+
+.p-linha{
+    margin-top:30px;
+}
+
+.botao{
+    border: 1px #343a40 solid;
+    border-radius:20px;
+    background-color: #FFFFFF;
+    padding:10px 20px;
+    color: #343A40;
+    font-weight: bold;
+    font-size:20px;
+    text-decoration: none;
+    margin:25px;
+}
+
+.p-botao{
+    margin-top: 50px;
+}
+
+.container-botao{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right:auto;
+}

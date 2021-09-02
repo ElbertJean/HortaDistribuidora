@@ -1,0 +1,106 @@
+html {
+    font-family: "Rubik";
+}
+
+.imagem-fundo{
+    background-image: url('../imagens/madeira.jpg');
+}
+
+.logo{
+    width:350px; 
+    height:150px;
+}
+
+.container {
+    width:50%;
+    margin:auto;
+    border: 1px #343a40 solid;
+    border-radius: 40px;
+    background-image: url('../imagens/madeira2.jpg');
+    padding-bottom: 40px;
+    padding-top:40px; 
+    margin-top: 0px;
+}
+
+.titulo-principal {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    text-align: center;
+    color:#343A40;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.descricao {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+input[type=text], [type=number]{
+    background-color: #4CAF5050;
+    border: 1px #343A40 solid;
+    border-radius: 30px;
+    color: #343a40;
+    font-size: 18px;
+    padding: 8px 16px;
+    text-decoration: none   ;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=color]{
+    margin-top: 10px;
+}
+
+input[type=submit]{
+    background-color: #F5F5F5;
+    border: 1px #343A40 solid;
+    border-radius: 30px;
+    color: #343A40;
+    font-size: 18px;
+    padding: 10px 40px;
+    text-decoration: none   ;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+input:hover[type=submit]{
+    background-color: #4CAF50;
+    border: 1px #4CAF50 solid;
+    color: white;
+    transition-duration: 0.75s;
+}
+
+::placeholder {
+    color:white;
+    font-weight: bold;
+}
+
+.botao{
+    border: 1px #343a40 solid;
+    border-radius:20px;
+    background-color: #FFFFFF;
+    padding:10px 20px;
+    color: #343A40;
+    font-weight: bold;
+    font-size:14px;
+    margin-left: 700px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #4CAF50;
+    border: 1px #4CAF50 solid;
+    color: white;
+    transition-duration: 0.75s;
+}
+
+.paragrafo{
+    margin-top: 50px;
+}
