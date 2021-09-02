@@ -46,9 +46,6 @@
             <p class="paragrafo">Peso (g): <?= $peso ?> </p>
             <!-- <p class="p-linha" ><?= $linha ?></p> -->
         </header>
-        <?= 
-            var_dump($nome);
-        ?>
         <div style="margin-top:100px;"></div>
     </body>
 </html>

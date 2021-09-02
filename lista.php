@@ -34,13 +34,13 @@
             <header class="container">
                     <h3 class="titulo-principal"><?= $nome ?></h3>
                     <div class="div-row">
-                        <a href="/php/visualizar.php?id=<? $i ?>">
+                        <a href="/php/visualizar.php?id=<?= $i ?>">
                             <img class="botao-edit" src="imagens/look.svg" alt="visualizar">
                         </a>
                         <a href="/php/index.php">
                             <img class="botao-edit" src="imagens/edit.svg" alt="editar">
                         </a>
-                        <a href="/php/excluir.php?id=<? $i ?>">
+                        <a href="/php/excluir.php?id=<?= $i ?>">
                             <img class="botao-edit" src="imagens/trash.svg" alt="excluir">
                         </a>
                     </div>
