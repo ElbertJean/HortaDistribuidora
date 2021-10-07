@@ -1,0 +1,1 @@
+Após fazer o git clone do repositório, renomear a pasta "Projeto-Horta-Distribuidora" para "php"
