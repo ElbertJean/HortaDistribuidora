@@ -7,7 +7,7 @@
     $linha = $nome . ", " . $cor . ", " . $quantidade . ", " . $peso;
 
     function salva_linha($linha) {
-        file_put_contents("legumes.txt", $linha . "\n", FILE_APPEND);
+        file_put_contents("./legumes.txt", $linha . "\n", FILE_APPEND);
     }
 
     salva_linha($linha); //chama a função
@@ -36,8 +36,8 @@
                 <p style="font-size:20px; margin-top:40px; font-weight:bold;">Salvo com Sucesso!</p>
         </header>
             <div class="container-botao">
-                <p class="p-botao"><a class="botao" href="/php/formulario.php">Cadastrar outro produto</a></p>
-                <p class="p-botao"><a class="botao" href="/php/lista.php">Ir para lista de produtos</a></p>
+                <p class="p-botao"><a class="botao" href="./formulario.php">Cadastrar outro produto</a></p>
+                <p class="p-botao"><a class="botao" href="./lista.php">Ir para lista de produtos</a></p>
             </div>
     </body>
 </html>

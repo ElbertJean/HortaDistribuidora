@@ -14,7 +14,7 @@
     <header class="container">
         <h1 class="titulo-principal">Cadastro de Frutas, Verduras e Legumes</h1>
         <div class="formulario">
-            <form action="/php/processa_formulario.php" method="post"> <!-- Formulário do tipo post no arquivo processa_form.php -->
+            <form action="./processa_formulario.php" method="post"> <!-- Formulário do tipo post no arquivo processa_form.php -->
                 <p class="descricao">Nome</p> 
                     <p>
                         <input type="text" name="nome">
@@ -34,7 +34,7 @@
                 <p class="descricao">
                     <input type="submit" value="Cadastrar">
                 </p>
-                <p class="paragrafo"><a class="botao" href="/php/index.php">Voltar a página inicial</a></p>
+                <p class="paragrafo"><a class="botao" href="./index.php">Voltar a página inicial</a></p>
 
             </form>
         </div>

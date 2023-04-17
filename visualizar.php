@@ -1,6 +1,6 @@
 <?php 
     $id = $_GET["id"];
-    $arquivo = file_get_contents("legumes.txt");
+    $arquivo = file_get_contents("./legumes.txt");
     $linhas = explode("\n", $arquivo);
 
     $linha = $linhas[$id];
@@ -27,18 +27,18 @@
             <img class="logo" src="imagens/maca-nome.png" alt="maçã">
         </div>
         <div class="container-botao">
-            <p class="p-botao"><a class="botao" href="/php/formulario.php">Cadatrar novo produto</a></p>
-            <p class="p-botao"><a class="botao" href="/php/lista.php">Voltar para a lista</a></p>
+            <p class="p-botao"><a class="botao" href="./formulario.php">Cadatrar novo produto</a></p>
+            <p class="p-botao"><a class="botao" href="./lista.php">Voltar para a lista</a></p>
         </div>
     
         <header class="container">
             <h3 class="titulo-principal"><?= $nome ?></h3>
             <div class="div-row">
-                <a href="/php/index.php">
-                    <img class="botao-edit" src="imagens/edit.svg" alt="editar">
+                <a href="./index.php">
+                    <img class="botao-edit" src="./imagens/edit.svg" alt="editar">
                 </a>
-                <a href="/php/excluir.php?id=<? $id ?>">
-                    <img class="botao-edit" src="imagens/trash.svg" alt="excluir">
+                <a href="./excluir.php?id=<? $id ?>">
+                    <img class="botao-edit" src="./imagens/trash.svg" alt="excluir">
                 </a>
             </div>
             <p class="paragrafo">Cor: <?= $cor ?></p>
